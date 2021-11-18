@@ -7,15 +7,16 @@
   
     <title>Growler Garage Bar</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="./SASS/custom.css">
     
 
 </head>
-<body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<body class="bg-dark bg-gradient">
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand ms-4" href="index.html"><img src="./LOGOGG.jpg" class="rounded-circle" width="100" height="100" alt=""> Growler Garage</a>
+            <a class="navbar-brand ms-4" href="index.html"><img src="./LOGOGG.jpg" class="rounded-circle" width="100" height="100" alt=""><span class="ms-2">Growler Garage</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,12 +36,12 @@
                         Locales
                         </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#ubicacion">Growler Garage 1</a></li>
-                            <li><a class="dropdown-item text-white" href="#ubicacion">Growler Garage 2</a></li>
-                            <li><a class="dropdown-item text-white" href="#ubicacion">Growler Funes</a></li>
-                            <li><a class="dropdown-item text-white" href="#ubicacion">Growler Café</a></li>
+                            <li><a class="dropdown-item text-white" href="#Vol.1">Growler Garage 1</a></li>
+                            <li><a class="dropdown-item text-white" href="#Vol.2">Growler Garage 2</a></li>
+                            <li><a class="dropdown-item text-white" href="#Vol.3">Growler Funes</a></li>
+                            <li><a class="dropdown-item text-white" href="#Vol.cafe">Growler Café</a></li>
                             <li><hr class="dropdown-divider text-white"></li>
-                            <li><a class="dropdown-item disabled" href="#">Growler Imperial</a></li>
+                            <li><a class="dropdown-item disabled" href="Imperial">Growler Imperial</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -61,52 +62,80 @@
                 </ul>
             </div>
         </div>
-    </nav>
-        <!--NAVBAR-->
-    <div class="container-fluid bg-dark bg-gradient p-4">
-        <div class="row">
-            <!--GALERIA FOTOS-->
+        </nav>
+        <!--FIN NAVBAR-->
+    </header>
+    <div class="container-fluid p-4" id="main-container">
+        <!--GALERIA FOTOS-->
+        <div class="row mb-3">
             <div class="col-sm-12">
                 <img src="./fotolocal.jpg" alt="" class="img-fluid border border-2 rounded-2">
             </div>
-            <!------>
-             <!--MAPAS-->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 mt-2">
-                        <h6 class="text-white">Growler Garage Vol.1</h6>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.175129578679!2d-60.66262447076582!3d-32.93250987320308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4d8df80aed%3A0x4a785a9389482371!2sBrown%203013%2C%20S2002JCQ%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1637155868726!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div class="col-sm-12 col-md-3 mt-2">
-                        <h6 class="text-white">Growler Garage Vol.2</h6>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6587380921364!2d-60.6542503843275!3d-32.933613478559565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abdb022ebc99%3A0x2c66d9a1b9d88f8d!2sGrowler%20Garage%20Vol.2!5e0!3m2!1ses-419!2sar!4v1637155334928!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div class="col-sm-12 col-md-3 mt-2">
-                        <h6 class="text-white">Growler Garage Funes</h6>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.9991318588536!2d-60.81370178432771!3d-32.924621178104786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64da375601ac1%3A0xe8cad28668d601!2sGrowler%20Garage%20Vol.%203!5e0!3m2!1ses-419!2sar!4v1637155981269!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div class="col-sm-12 col-md-3 mt-2">
-                        <h6 class="text-white">Growler Garage Café</h6>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d836.9478003254029!2d-60.65367358328042!3d-32.95652165373628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6d66067ec9%3A0xf20620614f59c3f6!2sHENKY%20PENKY!5e0!3m2!1ses-419!2sar!4v1637156328477!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                    <a name="ubicacion"/>
+        </div>
+        <!--FIN GALERIA FOTOS-->
+        <!--MAPAS-->
+        <div class="row mb-3">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                <div id="mapas" class="border border-white border-2 rounded-2">
+                    <a name="Vol.1" href="https://goo.gl/maps/bE6mQUeZoVweQfMt9" target="blank">
+                     <span id="titulo-mapas">Growler Garage Vol.1</span></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.700646829115!2d-60.66426598432758!3d-32.932506478503726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4d8df80aed%3A0x4a785a9389482371!2sBrown%203013%2C%20S2002JCQ%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1637187382423!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                <div id="mapas" class="border border-white border-2 rounded-2">
+                    <a name="Vol.2" href="https://goo.gl/maps/XjsavA26nkrTUBWA6" target="blank">
+                    <span id="titulo-mapas">Growler Garage Vol.2</span></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6587380921364!2d-60.6542503843275!3d-32.933613478559565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abdb022ebc99%3A0x2c66d9a1b9d88f8d!2sGrowler%20Garage%20Vol.2!5e0!3m2!1ses-419!2sar!4v1637184365740!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                <div id="mapas" class="border border-white border-2 rounded-2">
+                    <a name="Vol.3" href="https://goo.gl/maps/bje33FbsEcAYzpt58" target="blank">
+                    <span id="titulo-mapas">Growler Garage Funes</span></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.9991318588536!2d-60.81370178432771!3d-32.924621178104786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b64da375601ac1%3A0xe8cad28668d601!2sGrowler%20Garage%20Vol.%203!5e0!3m2!1ses-419!2sar!4v1637187266487!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+                <div id="mapas" class="border border-white border-2 rounded-2">
+                    <a name="Vol.cafe" href="https://goo.gl/maps/vc7w8V8o7y6o977G9" target="blank">
+                    <span id="titulo-mapas">Growler Café</span></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d591.8094532587013!2d-60.65330415523496!3d-32.95682207979331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6d66067ec9%3A0xf20620614f59c3f6!2sHENKY%20PENKY!5e0!3m2!1ses-419!2sar!4v1637187492580!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+                <div id="mapas" class="border border-white border-2 rounded-2">
+                    <a name="Imperial" href="https://goo.gl/maps/iaXXN8UMopjbBjvF7" target="blank">
+                    <span id="titulo-mapas">Growler Imperial</span></a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483.5755287165646!2d-60.670061002352234!3d-32.939961846702836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab57492cba1f%3A0xb23fc710e95b463d!2sMercado%20del%20Patio!5e0!3m2!1ses-419!2sar!4v1637187723443!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
 
-                
         </div>
+        <!--FIN MAPAS-->
+  <!--PIE-->
+    <footer class="panel-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <section id="horario" class="col-4 text-white opacity-50">
+                    <span>Horarios:</span><br>
+                    G.G.1,2 y 3<br>
+                    Lun-Dom: 17:30pm - 02:00am<br>
+                    G. Café<br>
+                    Lun-Sáb: 08:30am - 00:30am<br>
+                    Domingos cerrrado
+                </section>
+            </div>
+        <div class="text-white opacity-50">&copy; Copyright Growler Garage 2021</div>
+
+    </footer>
+  <!--FIN PIE-->
 
 
 
-
-
-    </div>
-    
-
-
+  
+       
+   
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
