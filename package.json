@@ -1,0 +1,9 @@
+{ "name": "ggbar",
+  "version": "1.0.0",
+  "scripts": {
+    "built": ""
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
