@@ -17,7 +17,7 @@ body {
 #Cuadro-menu {
   width: 100%;
   height: 250px;
-  background-image: url(./menu.jpg);
+  background-image: url(../images/menu.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@ body {
 #Cuadro-tienda {
   width: 100%;
   height: 250px;
-  background-image: url(./tienda.png);
+  background-image: url(../images/tienda.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 #Cuadro-mapa {
-  background-image: url(./mapabares.jpg);
+  background-image: url(../images/mapabares.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
