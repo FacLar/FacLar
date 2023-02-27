@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @FacLar
 - 👀 I’m interested in become a frontend developer
 - 🌱 I’m currently learning HTML5, CSS,
-- 💞️ I’m looking to collaborate on where i can
+- 💞️ I’m looking to collaborate on whatever i can
 - 📫 How to reach me ...
 
 <!---
